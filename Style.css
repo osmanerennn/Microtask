@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #f4f7fb;
+  color: #222;
+}
+header, footer {
+  background: #1a73e8;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+}
+#quake-list, #news-list {
+  padding: 10px 15px;
+  max-height: 150px;
+  overflow-y: auto;
+  background: white;
+  margin: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+.quake-item, .news-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.quake-item:last-child, .news-item:last-child {
+  border-bottom: none;
+}
